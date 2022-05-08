@@ -22,13 +22,23 @@ main {
   overflow: visible;
 }
 
-.center-image {
-  /* border-bottom: 1px solid gold; */
+#grow-button {
+  margin: 0;
+  padding: 6px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+#grow-button:hover,
+#grow-button:active {
+  cursor: pointer;
+  background-color: rgb(226, 226, 226);
 }
 
 .hair-left {
   position: absolute;
   bottom: 44px;
+  left: 0;
   transition: bottom .6s ease-in-out;
 }
 
